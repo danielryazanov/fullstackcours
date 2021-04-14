@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my website About</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" href="style.css"/> 
+
+
+        <style> 
+            input[type=text] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              box-sizing: border-box;
+              border: 2px solid rgb(253, 27, 185);
+              border-radius: 4px;
+            }
+            </style>
+    </head>
+    
+    <body class="body">
+        <h1 class="h1">תשאירו פרטים ואנו נחזור אליכם בהקדם האפשרי </h1>
+        <form action="/action_page.php" method="get">
+            <div class="content">
+                <label for="fname" class="form">First name:</label>
+                <input type="text" id="fname">
+                <br>
+                <br>
+                <br>
+
+                <label for="fname" class="form">Last name:</label>
+                <input type="text" id="lname">
+                <br>
+                <br>
+                <br>
+                <label for="fname" class="form">Id Number:</label>
+                <input type="text" id="IdNumber" maxlength="9">
+                <br>
+                <br>
+                <br>
+               
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female" checked="checked">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br>
+                <br>
+                <br>
+
+                <label for="eye" class="form">What is the color of your eyes:</label>
+                <input list="eyes" name="eye" id="eye">
+                <datalist id="eyes">
+                  <option value="green">
+                  <option value="blue">
+                  <option value="black">
+                  <option value="brown">
+                  <option value="gray">
+                </datalist>
+                <br>
+                <br>
+                <br>
+
+                <label for="age" type="text" class="form">What is your age (20-40) :</label>
+                <input list="ages" name="age" id="age">
+                <datalist id="ages">
+                  <option value="20">
+                  <option value="21">
+                  <option value="22">
+                  <option value="23">
+                  <option value="24">
+                  <option value="25">
+                  <option value="26">
+                  <option value="27">
+                  <option value="28">
+                  <option value="29">
+                  <option value="30">
+                  <option value="31">
+                  <option value="32">
+                  <option value="33">
+                  <option value="34">
+                  <option value="35">
+                  <option value="36">
+                  <option value="37">
+                  <option value="38">
+                  <option value="39">
+                  <option value="40">
+                       
+                </datalist>
+                <br>
+                <br>
+                <br>
+                <label for="email"  class="form">email:</label>
+                <input type="email" id="email" required>
+                <br>
+                <br>
+                <br>
+                <label type="text"  class="form">Describe yourself in a few words :
+                
+                    <p style="color: red;">500 maxlength attribute</p></label>
+                <textarea name="comment" rows="5" cols="40" required maxlength="500"> </textarea>
+                
+                <br>
+                <br>
+                <br>
+
+                
+
+            
+
+                <input type="submit" value=" שלח ,תודה רבה " class="comment">
+            </div>
+        </form>
+
+
+    </body>
+</html>

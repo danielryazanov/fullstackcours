@@ -1,0 +1,39 @@
+.h1 {
+    color: rgb(68, 21, 9);
+    font-size: 28px;
+    font-style: oblique;
+    text-align: center;
+
+    
+}
+
+.form  {
+
+    color: rgb(8, 49, 8);
+    font-size: 20px;
+    font-style: initial;
+   
+   
+    
+
+}
+
+.comment {
+
+    color:rgb(255, 255, 255);
+    background-color: black;
+    height: 40px;
+   
+
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.body { 
+    background-image: url('173-1731090_small.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
