@@ -1,39 +1,203 @@
-.h1 {
-    color: rgb(68, 21, 9);
-    font-size: 28px;
-    font-style: oblique;
-    text-align: center;
-
-    
-}
-
-.form  {
-
-    color: rgb(8, 49, 8);
-    font-size: 20px;
-    font-style: initial;
-   
-   
-    
-
-}
-
-.comment {
-
-    color:rgb(255, 255, 255);
-    background-color: black;
-    height: 40px;
-   
-
-}
-.content {
-    max-width: 500px;
-    margin: auto;
-}
-
-.body { 
-    background-image: url('173-1731090_small.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   background-image: url('1669016.jpg');
+   -webkit-font-smoothing: antialiased;
   }
+
+  *{
+      text-align: center;
+      background-position: center; 
+      box-sizing: border-box;
+  }
+  
+  a:hover {
+    background-color:skyblue ;
+  }
+
+  .topimg{
+    width: 120px;
+    text-align: right;
+    opacity: 0.7 0.7 ;
+    display: inline-block;
+    height: 300px;
+    max-height: 500px;
+    border-radius: 3px;
+    content: none;
+    right: 0px;
+    
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 7px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #28f0d5;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #4a9cdf;
+    color: white;
+  }
+                  * {box-sizing: border-box;}
+      ul {list-style-type: none;}
+      body {font-family: Verdana, sans-serif;}
+
+      .month {
+      padding: 10px 5px;
+      width: 100%;
+      background: #e62ddd;
+      text-align: center;
+      }
+
+      .month ul {
+      margin: 0;
+      padding: 0;
+      }
+
+      .month ul li {
+      color: rgb(26, 14, 14);
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      }
+
+      .month .prev {
+      float: left;
+      padding-top: 10px;
+      }
+
+      .month .next {
+      float: right;
+      padding-top: 10px;
+      }
+
+      .weekdays {
+      margin: 0;
+      padding: 10px 0;
+      background-color: #ddd;
+      }
+
+      .weekdays li {
+      display: inline-block;
+      width: 13.6%;
+      color: #666;
+      text-align: center;
+      }
+
+      .days {
+      padding: 10px 0;
+      background: rgb(185, 187, 177);
+      margin: 0;
+      }
+
+      .days li {
+      list-style-type: none;
+      display: inline-block;
+      width: 13.6%;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size:12px;
+      color: #777;
+      }
+
+      .days li .active {
+      padding: 5px;
+      background: #bc1a66;
+      color: rgb(27, 15, 15) 
+      }
+
+
+      input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid rgb(253, 27, 185);
+        border-radius: 4px;
+      }
+
+
+      .h1 {
+        color: rgb(68, 21, 9);
+        font-size: 28px;
+        font-style: oblique;
+        text-align: center;
+    
+        
+    }
+    
+    .form  {
+    
+        color: rgb(8, 49, 8);
+        font-size: 20px;
+        font-style: initial;
+       
+       
+        
+    
+    }
+    
+   
+    
+  
+    .content {
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    .mail { 
+      
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-image: url('bd596a9c63d8c3964fd3f537ed2fe33c.jpg');
+      }
+
+    .backg{
+        background-color: cadetblue;
+        display:block;
+    }
+
+    .mouseover {
+        background-color: #6be0f5;
+        color: rgb(7, 3, 3);
+        display: inline-block;
+        padding: 10px 50px;
+        text-align: center;
+        width: 400px;
+    }
+    
+    .focus {
+        width: 100%;
+        margin: 5px;
+        padding: 16px 20px;
+        box-sizing: border-box;
+        border: 4px solid rgb(159, 235, 238);
+        content: "";
+        display: table;
+        clear: both;
+        
+
+    
+    }
+
+    a.highlight:hover {
+        color: #ff0000;
+    }
